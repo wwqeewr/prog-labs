@@ -13,7 +13,11 @@ import ru.ifmo.se.pokemon.*;
  * Атаки: Rock Slide, Swords Dance, Last Resort.
  */
 public class Silcoon extends Pokemon {
-    public Silcoon (String name, int level){
+    /**
+    * name  имя покемона
+    * level уровень покемона
+    */
+    public Silcoon(String name, int level){
         super(name, level);
         setType(Type.BUG);
         setStats(50, 35, 55, 25, 25, 15);

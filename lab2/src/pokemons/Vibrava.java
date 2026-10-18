@@ -12,7 +12,11 @@ import ru.ifmo.se.pokemon.*;
  * Наследников нет, класс final.
  */
 public final class Vibrava extends Trapinch {
-    public Vibrava (String name, int level){
+    /**
+    * name  имя покемона
+    * level уровень покемона
+    */
+    public Vibrava(String name, int level){
         super(name, level);
         addType(Type.DRAGON);
         setStats(50, 70, 50, 50, 50, 70);

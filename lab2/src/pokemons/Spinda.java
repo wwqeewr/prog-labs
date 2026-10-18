@@ -10,7 +10,11 @@ import ru.ifmo.se.pokemon.*;
  * Атаки: Fire Blast, Flamethrower.
  */
 public final class Spinda extends Pokemon {
-    public Spinda (String name, int level){
+    /**
+    * name  имя покемона
+    * level уровень покемона
+    */
+    public Spinda(String name, int level){
         super(name, level);
         setType(Type.NORMAL);
         setStats(60, 60, 60, 60, 60, 60);

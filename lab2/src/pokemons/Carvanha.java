@@ -14,7 +14,11 @@ import ru.ifmo.se.pokemon.*;
  * Атаки: Mud-Slap, Growl, Overheat, Body Slam.
  */
 public final class Carvanha extends Pokemon {
-    public Carvanha (String name, int level){
+    /**
+    * name  имя покемона
+    * level уровень покемона
+    */
+    public Carvanha(String name, int level){
         super(name, level);
         setType(Type.WATER, Type.DARK);
         setStats(45, 90, 20, 65, 20, 65);

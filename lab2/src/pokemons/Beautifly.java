@@ -11,7 +11,11 @@ import ru.ifmo.se.pokemon.*;
  * Наследников нет, класс final.
  */
 public final class Beautifly extends Silcoon {
-    public Beautifly (String name, int level){
+    /**
+    * name  имя покемона
+    * level уровень покемона
+    */
+    public Beautifly(String name, int level){
         super(name, level);
         addType(Type.FLYING);
         setStats(60, 70, 50, 100, 50, 65);
